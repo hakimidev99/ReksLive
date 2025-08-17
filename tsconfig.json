@@ -1,0 +1,12 @@
+{
+  "extends": "@react-native/typescript-config",
+  "compilerOptions": {
+    "typeRoots": ["types", "node_modules/@types"],
+    "paths": {
+      "@zegocloud/zego-uikit-prebuilt-live-streaming-rn": [
+        "./types/zego-uikit-prebuilt-live-streaming-rn.d.ts"
+      ]
+    }
+  },
+  "include": ["types", "src"]
+}
